@@ -1,0 +1,114 @@
+#container {
+    width: 540px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+#generate-sudoku {
+    margin: auto;
+    display: block;
+    ;
+}
+
+
+#solve {
+    margin: auto;
+    display: block;
+    ;
+}
+
+#container div {
+    background-color: whitesmoke;
+    height: 60px;
+    width: 60px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-align: center;
+    line-height: 60px;
+    font-size: 30px;
+    color: green;
+
+}
+
+#container div:hover {
+    background-color: lightskyblue;
+}
+
+.lsb {
+    border-left: black 2px solid;
+}
+
+.bsb {
+    border-bottom: black 2px solid;
+}
+
+.rsb {
+    border-right: black 2px solid;
+}
+
+.tsb {
+    border-top: black 2px solid;
+}
+
+
+.ldb {
+    border-left: black 0.6px dashed;
+}
+
+.bdb {
+    border-bottom: black 0.6px dashed;
+}
+
+.rdb {
+    border-right: black 0.6px dashed;
+}
+
+.tdb {
+    border-top: black 0.6px dashed;
+}
+
+/* left side border :- lsb */
+/* ldb :- left dashed border */
+
+.row {
+    display: grid;
+    /* grid template columns :- signifies the number and size of columns
+    fr:- fraction */
+    grid-template-columns: 3fr 5fr;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    /* top right bottom left padding */
+    padding: 10px 20px 30px 20px;
+}
+
+#newArray {
+    justify-content: space-around;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+#generate-sudoku {
+    display: inline;
+    margin-right: 10px;
+}
+
+#solve {
+    display: inline;
+    margin-left: 10px;
+}
+
+
+#buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
