@@ -101,7 +101,7 @@ button.onclick = function () {
     //we can change the difficulty of the puzzle the allowed values of difficulty are easy, medium, hard and random
     if (easy == true)
         url = 'https://sugoku.herokuapp.com/board?difficulty=easy';
-    else if (difficult == true)
+    else if (intermediate == true)
         url = 'https://sugoku.herokuapp.com/board?difficulty=medium';
     else if (difficult == true)
         url = 'https://sugoku.herokuapp.com/board?difficulty=hard';
